@@ -58,7 +58,7 @@ export function Inputs() {
       </div>
       <div>
         <p>
-          {user.name} {user.lastName}
+          {user.nome} {user.lastName}
         </p>
         <p>{user.date ? handleDateShow(user.date) : ""}</p>
       </div>
