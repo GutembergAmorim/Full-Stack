@@ -36,6 +36,6 @@ const columns = [
   }),
 ];
 
-export function ClientsTable() {
+export function ClientesTable() {
   return <DataTable data={data} columns={columns} />;
 }
